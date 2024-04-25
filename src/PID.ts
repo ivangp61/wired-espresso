@@ -5,6 +5,7 @@ export const TemperatureContext = {
   requestedTemp: 195
 }
 
+
 export function applyRequestedTemperature(temp: number) {
   const { makeAndModel, version } = DeviceContext;
 
